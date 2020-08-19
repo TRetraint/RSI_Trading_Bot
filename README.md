@@ -26,4 +26,4 @@ Here are the results :
 <p align="center">
   <img src="imgs/Backtest_Result_ETH.png"/>
 </p>
-so the strategy loses with nearly $134 in losses over 2 weeks. Being a simple strategy, this is not surprising. I will now try to find a viable strategy that I will test on a several pairs of the same strategy.
+so the strategy loses with nearly $134 in losses over 2 weeks. Being a simple strategy, this is not surprising. I will now try to find a viable strategy that I will test on a several pairs.

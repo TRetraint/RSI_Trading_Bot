@@ -1,4 +1,5 @@
 python-binance
 TA-Lib
 websocket_client
-pickle
+backtrader
+matplotlib

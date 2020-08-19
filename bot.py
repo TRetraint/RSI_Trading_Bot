@@ -11,12 +11,12 @@ from binance.enums import *
 SOCKET = 'wss://stream.binance.com:9443/ws/ethusdt@kline_1m'
 #Parameters of the RSI Strategy
 RSI_PERIOD = 14
-RSI_OVERBOUGHT =70
+RSI_OVERBOUGHT = 70
 RSI_OVERSOLD = 30
 #Symbol of Ethereum
 TRADE_SYMBOL = "ETHUSD"
 #Quantity of ETH for a trade
-TRADE_QUANTITY = 0.05
+TRADE_QUANTITY = 1
 in_position = False
 df = pd.DataFrame()
 API_KEY = 'xxx'

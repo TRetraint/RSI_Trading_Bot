@@ -58,7 +58,7 @@ def on_message(ws, message):
     close_price = candle['c']
 
     if closed_candle:
-        #if the message is a closed candle, had it to the DataFrame
+        #if the message is a closed candle, add it to the DataFrame
         df = df.append({'date' : datetime.fromtimestamp(candle['t']/1000),'close price': float(candle['c'])}, ignore_index=True)
         #Calling the RSI Strategy
         in_position = RSI_Strategy(close_price, df, in_position)
